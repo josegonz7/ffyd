@@ -16,6 +16,13 @@ public class Ejemplopàntalla {
 	double metros = pepe.nextDouble();
 	System.out.printf("mido %d cm \n ", metros);
 	//nextBoolean (true or false
+	
+	
+	
+	
+	
+	
+	
 	}
 	
 }
