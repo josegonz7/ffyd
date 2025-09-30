@@ -1,6 +1,6 @@
 package prog1;
 
-public class Main2 {
+public class Operadores {
 
 	public static void main(String[] args) {
 		int a = 10;
