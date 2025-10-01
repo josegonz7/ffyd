@@ -1,4 +1,4 @@
-package apuntes;
+package Atajosjava;
 
 public class AtajosTeclado {
 	

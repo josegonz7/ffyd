@@ -1,8 +1,8 @@
-package operadores;
+package Ejercicios;
 
 import java.util.Scanner;
 
-public class Relacionales {
+public class Ejercicio3 {
 
 	public static void main(String[] args) {
 
