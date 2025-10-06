@@ -2,12 +2,30 @@ package poo.persona;
 
 public class Persona {
 	String nombre;
-	Double estatura;
+	double estatura;
 	int edad;
-	String jose;
-	String pepe;
+
 	void presentarse() {
-		System.out.println("hola soy jose");
+
+	}
+
+	void saludar() {
+		System.out.println("hola");
+
+	}
+
+	void imprimirnombre() {
+		System.out.println("nombre");
+
+	}
+
+	void cumpliranyos() {
+		edad++;
+	}
+
+	void crecer(double incremento){
+		estatura = estatura + incremento;
 		
 	}
+	
 }
