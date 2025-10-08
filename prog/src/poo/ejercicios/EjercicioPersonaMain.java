@@ -2,13 +2,19 @@ package poo.ejercicios;
 
 public class EjercicioPersonaMain {
 
-	public EjercicioPersonaMain() {
-		// TODO Auto-generated constructor stub
-	}
-
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
+		EjercicioPersona p1 = new EjercicioPersona("Manuel", 26);
+		EjercicioPersona p2 = new EjercicioPersona("Pepe", 25);
+		EjercicioPersona p3 = new EjercicioPersona("Bakambu", 31);
+		EjercicioPersona p4 = new EjercicioPersona("Marc", 34);
+
+		EjercicioPersona.mostrarTotalPersonas();
+		EjercicioPersona.mostrarultimoNombre();
+		EjercicioPersona.mostrarUltimaPersona();
+		
+		System.out.println(EjercicioPersona.ultimaPersona);
+		
 	}
 
 }

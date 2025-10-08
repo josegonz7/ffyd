@@ -1,4 +1,4 @@
-package poo.cuentacorriente;
+package poo.diapositiva119;
 
 public class CuentaCorriente2 {
 	

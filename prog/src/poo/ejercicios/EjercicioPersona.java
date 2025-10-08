@@ -1,9 +1,33 @@
 package poo.ejercicios;
 
 public class EjercicioPersona {
-
-	public EjercicioPersona() {
-		// TODO Auto-generated constructor stub
+	
+	String nombre;
+	int edad;
+	
+	static int contadorPersonas = 0;
+	static String ultimoNombre = "";
+	static EjercicioPersona ultimaPersona = null;
+	
+	EjercicioPersona(String nombre, int edad) {
+		this.nombre = nombre;
+		this.edad = edad;
+		contadorPersonas++;
+		ultimoNombre = nombre;
+		ultimaPersona = this;
 	}
-
+	
+	static void mostrarTotalPersonas() {
+		System.out.println("Se han creado " + contadorPersonas + " personas. ");
+	}
+	
+	static void mostrarultimoNombre() {
+		System.out.println("Último nombre: " + ultimoNombre);
+	}
+	
+	static void mostrarUltimaPersona() {
+		System.out.println("Última persona creada:");
+		System.out.println("Nombre: " + ultimaPersona.nombre);
+		System.out.println("Edad: " + ultimaPersona.edad);
+	}
 }

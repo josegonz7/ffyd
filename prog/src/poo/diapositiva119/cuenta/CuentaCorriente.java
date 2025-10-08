@@ -1,4 +1,4 @@
-package poo.cuentacorriente;
+package poo.diapositiva119.cuenta;
 
 public class CuentaCorriente {
 
@@ -27,7 +27,8 @@ public class CuentaCorriente {
 		System.out.println("el NombreTitular es " + nombreTitular);
 		System.out.println("tu dni es " + dni);
 		System.out.println("tu saldo restante es " + saldo);
-	
+		
+		
 
 	}
 

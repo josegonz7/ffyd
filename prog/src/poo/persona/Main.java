@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	Persona.mostrardiasemana();
 	
 	Persona p2 = new Persona("paco", 30, 1.80);
-	
+
 	//p2
 	
 	//Persona.diadelasemana ="Martes";
