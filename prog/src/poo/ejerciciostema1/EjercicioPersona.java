@@ -1,4 +1,4 @@
-package poo.ejercicios;
+package poo.ejerciciostema1;
 
 public class EjercicioPersona {
 	
