@@ -26,7 +26,7 @@ public class DistanciaAbsoluta {
 	}
 	
 	public void mostrarDistancia() {
- 		double distancia = Math.abs(numero1)/ Math.abs(numero2);
+ 		double distancia = Math.abs(numero1-numero2);
  		System.out.printf("la distacia es : %.2f \n", distancia);
 	}
 	

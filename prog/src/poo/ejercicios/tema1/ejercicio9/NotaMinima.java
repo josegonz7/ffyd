@@ -1,34 +1,34 @@
 package poo.ejercicios.tema1.ejercicio9;
 
 public class NotaMinima {
-	private double nota1;
-	private double nota2;
 	
-	public NotaMinima(double nota1, double nota2) {
+	private double nota1;
+	private double mediaDeseada;
+	
+	public NotaMinima(double nota1, double mediaDeseada) {
 		this.nota1 = nota1;
-		this.nota1 = nota2;
+		this.mediaDeseada = mediaDeseada;
 	}
-		
-	public void getnumero1() {
-			System.out.println(this.nota1);
+	
+	public void getNota1() {
+		System.out.println(this.nota1);
 	}
-		
-	public void setnumero1(double nota1) {
-			this.nota1 = nota1;
+	
+	public void setNota1(double nota1) {
+		this.nota1 = nota1;
 	}
-		
-	public void getnota2() {
-			System.out.println(this.nota2);
+	
+	public void getMediaDeseada() {
+		System.out.println(this.mediaDeseada);
 	}
-		
-	public void setnota2(double nota2) {
-			this.nota2 = nota2;
+	
+	public void setMediaDeseada(double mediaDeseada) {
+		this.mediaDeseada = mediaDeseada;
 	}
 	
 	public void calcularNotaNecesaria() {
- 		double notanecesaria = (nota1*0.40) + (nota2*0.60);
- 		System.out.printf("la nota necesaria es : %.2f \n", notanecesaria);
+		double nota2 = (mediaDeseada - (nota1 * 0.4)) / 0.6;
+		System.out.printf("Nota necesaria en el 2º examen: %.2f \n", nota2);
 	}
 	
-
 }
