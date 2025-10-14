@@ -13,7 +13,7 @@ public class CalculadoraBasica {
 			System.out.println(this.numero1);
 	}
 		
-	public void setnumero1A(double numero1) {
+	public void setnumero1(double numero1) {
 			this.numero1 = numero1;
 	}
 		

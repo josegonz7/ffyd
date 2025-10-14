@@ -16,7 +16,7 @@ public class ConversionTemperatura {
 	}
 
 	public void mostrarCelsius() {
-		double GradosCelsius = fahrenheit -32;
+		double GradosCelsius = (this.fahrenheit -32)/1.8;
 		System.out.printf("resultado: %.2f \n", GradosCelsius);
 	}
 	
