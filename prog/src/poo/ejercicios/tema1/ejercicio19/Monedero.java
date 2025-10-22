@@ -60,6 +60,6 @@ public class Monedero {
 	public void calcularTotalEuros() {
 		int euros= (dosEuros*2) + (unEuro*1);
 		int centimos= (cent50*50) + (cent20*20) + (cent10*10);
-		System.out.printf("total: " + euros +"euros y " + centimos + " centimos");
+		System.out.printf("total: " + euros + " euros y " + centimos + " centimos");
 	}
 }
